@@ -1,18 +1,73 @@
 <!DOCTYPE html>
-<html lang="pl">
-
+<html lang = pl>
 <head>
-    <!-- Required meta tags -->
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>CodersCamp | Projekt 1 - HTML i CSS</title>
     <meta name="description" content="CodersCamp to darmowy, otwarty kurs programowania webowego we Wrocławiu. Sprawdź, czego nauczysz się na CodersCamp i spróbuj swoich sił w branży IT!">
+    <link href="./style.css" type="text/css" rel="stylesheet">
 
 </head>
 
-<body>
 
-<p>CodersCamp - projekt 1. Tutaj możesz zacząć swoją zabawę!</p>
-
+<body>   
+    <div class = "navbar">
+        <a href = "https://www.facebook.com/kasia.ratajska.5/" target = "_blank"><img src ="#"/></a>
+        <a href = "https://www.instagram.com/kaasia_r/" target = "_blank"><img src ="#"/></a>
+        <a href = "https://github.com/kcodex" target = "_blank"><img src ="#"/></a>
+    </div>
+    <div class = "container">
+        <div class = "content">
+            <div class = "nav">
+                <img src ="./pexels-stephan-seeber-1261728.jpg" alt ="Widok gór o zachodzie słońca"/>
+                <h1 id = "welcome"> Witaj <br> na mojej <br> stronie </h1>
+                <ul>
+                    <li><a href = "#ja">O mnie</a></li>
+                    <li><a href = "#studia">Studia</a></li>
+                    <li><a href = "#podroze">Podróże</a></li>
+                    <li><a href = "#kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+            <div id = "ja" class = "box1">
+                <h3>O mnie</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas quibusdam alias nobis amet culpa, suscipit facilis. Incidunt esse sed eos, ea laudantium quis eum ipsam distinctio blanditiis voluptates animi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas quibusdam alias nobis amet culpa, suscipit facilis. Incidunt esse sed eos, ea laudantium quis eum ipsam distinctio blanditiis voluptates animi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas quibusdam alias nobis amet culpa, suscipit facilis. Incidunt esse sed eos, ea laudantium quis eum ipsam distinctio blanditiis voluptates animi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas quibusdam alias nobis amet culpa, suscipit facilis.</p>
+                <img src = "./ja.jpg" />
+                  
+            </div>
+            <div id = "studia" class = "box2">
+                <h3>Studia</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas quibusdam alias nobis amet culpa, suscipit facilis. Incidunt esse sed eos, ea laudantium quis eum ipsam distinctio blanditiis voluptates animi.</p>
+                <img src = "#" />  
+            </div>
+            <div id = "podroze" class = "box3">
+                <h3>Podróże</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas quibusdam alias nobis amet culpa, suscipit facilis. Incidunt esse sed eos, ea laudantium quis eum ipsam distinctio blanditiis voluptates animi.</p>
+                <img src="#"/>  
+            </div>
+            <div id = "kontakt" class = "box4">
+                <h3>Kontakt</h3>
+                <form action = "#" method = "get">
+                    <section class = "left">
+                        <label for = "name">Imię i nazwisko</label>
+                        <input type = "text" id = "name" placeholder = "Imię i nazwisko">
+                        <label for = "email">Adres e-mail</label>
+                        <input type = "text" id = "email" placeholder = "Adres e-mail">
+                    </section>    
+                    <section class = "right">
+                        <label for = "message">Treść wiadomości</label>
+                        <textarea name = "foo" id = "message" rows = "9" columns = "10" placeholder="Tu wpisz swoją wiadomość"></textarea>
+                    </section>
+                    <input type = "submit" value = "Wyślij">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Katarzyna Ratajska</p>
+        <a href = "https://www.facebook.com/kasia.ratajska.5/"><img src ="#"/></a>
+        <a href = "https://www.instagram.com/kaasia_r/"><img src ="#"/></a>
+        <a href = "https://github.com/kcodex"><img src ="#"/></a>
+    </footer>
 </body>
 </html>
