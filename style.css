@@ -29,13 +29,14 @@ body {
 }
 
 .content {
-    background-color: gray;
+    background-image: url(./pexels-stephan-seeber-1261728.jpg);
+    background-size: 80vw 110vh;
     height: 100%;
     width: 80vw;
 }
 
 .nav {
-    height: 100vh;
+    height: 90vh;
     width: 80vw;
     position: relative;
     background-image: url("./pexels-stephan-seeber-1261728.jpg");
@@ -52,30 +53,30 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.nav ul {
+.content ul {
     list-style-type: none;
-    position: absolute;
-    margin: auto;
-    left:0;
-    right: 0;
-    bottom: 5%;
     display: flex;
     justify-content: space-around;
     z-index: 11;
 }
-/* .sticky {
+
+.sticky span {
+    padding-bottom: 6vh;
+}
+.content li {
+    color: white;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-shrink: 1;
+
+}
+.sticky {
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
-  } */
-.nav li {
-    color: white;
-    font-size: 22px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    flex-shrink: 1;
-    z-index: 11;
-}
+  }
 .box1 {
+    background-color: gray;
     height: 100vh;
     display: grid;
     grid-template-columns: 5% 1fr 1fr 1fr;
