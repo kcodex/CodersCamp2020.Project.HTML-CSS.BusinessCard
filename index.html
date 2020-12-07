@@ -7,45 +7,43 @@
     <title>CodersCamp | Projekt 1 - HTML i CSS</title>
     <meta name="description" content="CodersCamp to darmowy, otwarty kurs programowania webowego we Wrocławiu. Sprawdź, czego nauczysz się na CodersCamp i spróbuj swoich sił w branży IT!">
     <link href="./style.css" type="text/css" rel="stylesheet">
+    <link href="css/fontello.css" type="text/css" rel="stylesheet">
 
 </head>
-
-
 <body>   
     <div class = "navbar">
-        <a href = "https://www.facebook.com/kasia.ratajska.5/" target = "_blank"><img src ="#"/></a>
-        <a href = "https://www.instagram.com/kaasia_r/" target = "_blank"><img src ="#"/></a>
-        <a href = "https://github.com/kcodex" target = "_blank"><img src ="#"/></a>
+        <a href = "https://www.facebook.com/kasia.ratajska.5/" target = "_blank"><i class = "icon-facebook-squared"></i></a>
+        <a href = "https://www.instagram.com/kaasia_r/" target = "_blank"><i class = "icon-instagram"></i></a>
+        <a href = "https://github.com/kcodex" target = "_blank"><i class = "icon-github-squared"></i></a>
     </div>
     <div class = "container">
         <div class = "content">
             <div class = "nav">
-                <img src ="./pexels-stephan-seeber-1261728.jpg" alt ="Widok gór o zachodzie słońca"/>
                 <h1 id = "welcome"> Witaj <br> na mojej <br> stronie </h1>
-                <ul>
-                    <li><a href = "#ja">O mnie</a></li>
-                    <li><a href = "#studia">Studia</a></li>
-                    <li><a href = "#podroze">Podróże</a></li>
-                    <li><a href = "#kontakt">Kontakt</a></li>
+                <ul class = "sticky">
+                    <li><a href = "#about">O mnie</a></li>
+                    <li><a href = "#studies">Studia</a></li>
+                    <li><a href = "#travel">Podróże</a></li>
+                    <li><a href = "#contact">Kontakt</a></li>
                 </ul>
             </div>
-            <div id = "ja" class = "box1">
+            <div id = "about" class = "box1">
                 <h3>O mnie</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas quibusdam alias nobis amet culpa, suscipit facilis. Incidunt esse sed eos, ea laudantium quis eum ipsam distinctio blanditiis voluptates animi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas quibusdam alias nobis amet culpa, suscipit facilis. Incidunt esse sed eos, ea laudantium quis eum ipsam distinctio blanditiis voluptates animi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas quibusdam alias nobis amet culpa, suscipit facilis. Incidunt esse sed eos, ea laudantium quis eum ipsam distinctio blanditiis voluptates animi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas quibusdam alias nobis amet culpa, suscipit facilis.</p>
                 <img src = "./ja.jpg" />
                   
             </div>
-            <div id = "studia" class = "box2">
+            <div id = "studies" class = "box2">
                 <h3>Studia</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas quibusdam alias nobis amet culpa, suscipit facilis. Incidunt esse sed eos, ea laudantium quis eum ipsam distinctio blanditiis voluptates animi.</p>
                 <img src = "#" />  
             </div>
-            <div id = "podroze" class = "box3">
+            <div id = "travel" class = "box3">
                 <h3>Podróże</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas quibusdam alias nobis amet culpa, suscipit facilis. Incidunt esse sed eos, ea laudantium quis eum ipsam distinctio blanditiis voluptates animi.</p>
                 <img src="#"/>  
             </div>
-            <div id = "kontakt" class = "box4">
+            <div id = "contact" class = "box4">
                 <h3>Kontakt</h3>
                 <form action = "#" method = "get">
                     <section class = "left">
@@ -56,7 +54,7 @@
                     </section>    
                     <section class = "right">
                         <label for = "message">Treść wiadomości</label>
-                        <textarea name = "foo" id = "message" rows = "9" columns = "10" placeholder="Tu wpisz swoją wiadomość"></textarea>
+                        <textarea id = "message" rows = "9" columns = "10" placeholder="Tu wpisz swoją wiadomość"></textarea>
                     </section>
                     <input type = "submit" value = "Wyślij">
                 </form>
@@ -64,10 +62,10 @@
         </div>
     </div>
     <footer>
-        <p>Katarzyna Ratajska</p>
-        <a href = "https://www.facebook.com/kasia.ratajska.5/"><img src ="#"/></a>
-        <a href = "https://www.instagram.com/kaasia_r/"><img src ="#"/></a>
-        <a href = "https://github.com/kcodex"><img src ="#"/></a>
+        <p>Katarzyna Ratajska 2020</p>
+        <a href = "https://www.facebook.com/kasia.ratajska.5/"><i class = "icon-facebook-squared"></i></a>
+        <a href = "https://www.instagram.com/kaasia_r/"><i class = "icon-instagram"></i></a>
+        <a href = "https://github.com/kcodex"><i class = "icon-github-squared"></i></a>
     </footer>
 </body>
 </html>
