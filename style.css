@@ -79,7 +79,6 @@ body {
     flex-shrink: 1;
     box-sizing: content-box;
     padding-bottom: 50px;
-
 }
 .sticky {
     position: -webkit-sticky; 
@@ -89,30 +88,24 @@ body {
 .box1 {
     background-color: gray;
     height: 100vh;
-    display: grid;
-    grid-template-columns: 5% 1fr 1fr 1fr;
-    grid-template-rows: 15% 10% 15% 1fr 1fr;
+    display: flex;
 }
 .box1 h3 {
     padding-top: 2.2em;
-    grid-column: 2/5;
-    grid-row-start: 1;
     text-align: center;
     font-size: 4vh;
     margin-bottom: 10%;
 }
 .box1 p {
-    grid-row-start: 3;
-    grid-column: 3/5;
+    font-size: 3vh;
+    padding-right: 1vw;
 
 }
 .box1 img {
-    margin: 10px;
-    max-width: 20vw;
+    margin: 40px;
+    max-width: 23vw;
     height: auto;
     object-fit: contain;
-    grid-row: 2/4;
-    grid-column: 2/3;
 }
 .box2 {
     height: 100vh;
@@ -127,7 +120,7 @@ body {
     padding-bottom: 1vh;
 }
 .box2 img {
-    width: 35%;
+    width: 30%;
     height: auto;
     object-fit: contain;
     position: relative;
@@ -135,7 +128,7 @@ body {
     margin: 5vh;
 }
 .box2 .real {
-    width: 250px;
+    width: 215px;
     height: auto;
 }
 .box3 {
@@ -202,7 +195,7 @@ body {
     background-color:  #CCB7AE;;
 }
 .box4 h3 {
-    padding-top: 2.2em;
+    padding-top: 2.5em;
     font-size: 4vh;
     text-align: center;
     margin-bottom: 3%;
