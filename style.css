@@ -29,7 +29,7 @@ body {
 }
 
 .content {
-    background-image: url(./background-image-compressed2.jpg);
+    background-image: url(./photos/background-image.jpg);
     background-size: 80vw 110vh;
     background-origin: content-box;
     height: 100%;
@@ -41,7 +41,7 @@ body {
     height: 90vh;
     width: 80vw;
     position: relative;
-    background-image: url(./background-image-compressed2.jpg);
+    background-image: url(./photos/background-image.jpg);
     background-size: cover;
 }
 .nav h1 {
@@ -124,7 +124,7 @@ body {
     height: auto;
     object-fit: contain;
     position: relative;
-    left: 13%;
+    left: 18%;
     margin: 5vh;
 }
 .box2 .real {
