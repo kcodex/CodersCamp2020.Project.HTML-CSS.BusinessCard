@@ -135,25 +135,152 @@ body {
     height: 205px;
     object-fit: cover;
 }
-#img1 {
+.photo1 {
     grid-area: 2/2/3/3;
     z-index: 0.5;
 }
-#img2 {
+.overlay1 {
+    position: relative;
+    width:auto;
+    height: auto;
+} 
+.overlay1 p {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 55px;
+    background-color: #411d2e;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    left: 0px;
+    bottom: 4px;
+    transition: opacity 0.3s ease-in-out;
+} 
+.overlay1:hover p {
+    opacity: 0.8;
+}
+.photo2 {
     grid-area: 3/3/4/4; 
 }
-#img3 {
+.overlay2 {
+    position: relative;
+    width:auto;
+    height: auto;
+} 
+.overlay2 p {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 55px;
+    background-color: #411d2e;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    left: 0px;
+    bottom: 4px;
+    transition: opacity 0.3s ease-in-out;
+} 
+.overlay2:hover p {
+    opacity: 0.8;
+}
+.photo3 {
     grid-area: 2/3/3/4;
 }
-#img4 {
+.overlay3 {
+    position: relative;
+    width:auto;
+    height: auto;
+} 
+.overlay3 p {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 55px;
+    background-color: #411d2e;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    left: 0px;
+    bottom: 4px;
+    transition: opacity 0.3s ease-in-out;
+} 
+.overlay3:hover p {
+    opacity: 0.8;
+}
+.photo4 {
     grid-area: 3/2/4/3;
 }
-#img5 {
+.overlay4 {
+    position: relative;
+    width:auto;
+    height: auto;
+} 
+.overlay4 p {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 55px;
+    background-color: #411d2e;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    left: 0px;
+    bottom: 4px;
+    transition: opacity 0.3s ease-in-out;
+} 
+.overlay4:hover p {
+    opacity: 0.7;
+}
+.photo5 {
     grid-area: 3/4/4/5;
 }
-#img6 {
+.overlay5 {
+    position: relative;
+    width:auto;
+    height: auto;
+} 
+.overlay5 p {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 55px;
+    background-color: #411d2e;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    left: 0px;
+    bottom: 4px;
+    transition: opacity 0.3s ease-in-out;
+} 
+.overlay5:hover p {
+    opacity: 0.8;
+}
+.photo6 {
     grid-area: 2/4/3/5;
 }
+.overlay6 {
+    position: relative;
+    width:auto;
+    height: auto;
+} 
+.overlay6 p {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 55px;
+    background-color: #411d2e;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    left: 0px;
+    bottom: 4px;
+    transition: opacity 0.3s ease-in-out;
+} 
+.overlay6:hover p {
+    opacity: 0.8;
+}
+
 .box4 {
     height: 100vh;
     background-color:  #CCB7AE;;
