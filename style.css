@@ -78,10 +78,9 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-shrink: 1;
     box-sizing: content-box;
-    padding-bottom: 50px;
+    padding-bottom: 3vw;
 }
 .sticky {
-    position: -webkit-sticky; 
     position: sticky;
     top: 0;
   }
@@ -99,36 +98,46 @@ body {
 .box1 p {
     font-size: 3vh;
     padding-right: 1vw;
+    flex-shrink: 2;
 
 }
 .box1 img {
     margin: 40px;
-    max-width: 23vw;
+    width: 23vw;
     height: auto;
     object-fit: contain;
+    flex-shrink: 0.5;
 }
 .box2 {
     height: 100vh;
     background-color: #CCB7AE;
 }
 .box2 h3 {
-    padding-top: 2.2em;
+    padding-top: 4.5vw;
     font-size: 4vh;
     text-align: center;
 }
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+}
+.skull {
+    text-align: center;
+}
 .box2 h2 {
-    padding-bottom: 1vh;
+    padding-bottom: 1vw;
+    margin-top: 1vw;
+}
+.box2 p {
+    margin-bottom: 2vw;
 }
 .box2 img {
-    width: 30%;
+    width: 30.5%;
     height: auto;
     object-fit: contain;
-    position: relative;
-    left: 18%;
-    margin: 5vh;
 }
 .box2 .real {
-    width: 215px;
+    width: 20%;
     height: auto;
 }
 .box3 {
@@ -281,35 +290,118 @@ footer {
             font-size: 45px;
         }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1040px) {
+    .box3 {
+        grid-template-columns: 15% repeat(2, 1fr) 15%;
+        grid-template-rows: 10% repeat(3, 1fr) 100px;
+        height: fit-content;
+    }
+    .box3 h3 {
+        grid-area: 3/1/4/2;
+    }
+    .photo1 {
+        grid-area: 2/2/3/3;
+    }
+    .photo2 {
+        grid-area: 3/3/4/4; 
+    }
+    .photo3 {
+        grid-area: 2/3/3/4;
+    }
+    .photo4 {
+        grid-area: 3/2/4/3;
+     }
+    .photo5 {
+        grid-area: 4/3/5/4;
+     }
+    .photo6 {
+        grid-area: 4/2/5/3;
+    }
+}
+@media only screen and (max-width: 945px) {
     .nav h1 {
-        font-size: 35px;
-        
+        font-size: 40px;
     }
     .nav li {
         top: -7vh;
     }
+    .box1 {
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+    .box1 img {
+        width: 230px;
+        align-self: center;
+    }
+    .box1 h3 {
+        margin-bottom: 5px;
+        padding-top: 7vh;
+    }
 }
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 800px) {
+    .box3 {
+        grid-template-columns: 20% 1fr 20%;
+        grid-template-rows: 3% repeat(6, 1fr) 50px;
+        height: fit-content;
+        gap: 10px;
+    }
+    .box3 h3 {
+        grid-area: 3/1/4/2;
+    }
+    .box3 img {
+        width: 350px;
+    }
+    .photo1 {
+        grid-area: 2/2/3/3;
+    }
+    .photo2 {
+        grid-area: 6/2/7/3; 
+    }
+    .photo3 {
+        grid-area: 5/2/6/3;
+    }
+    .photo4 {
+        grid-area: 3/2/4/3;
+     }
+    .photo5 {
+        grid-area: 7/2/8/3;
+     }
+    .photo6 {
+        grid-area: 4/2/5/3;
+    }
     .nav h1 {
-        font-size: 25px;
+        font-size: 35px;
     }
     .nav li {
         top: -6vh;
+    }
+    .box1 p {
+        font-size: 15px;
     }
 }
 @media only screen and (max-width: 585px) {
     br {
         display: none;
     }
-    .nav h1 {
-        font-size: 19px;
-        top: 100px;
-        right: 100px;
-    }
-
     .nav li {
         font-size: 15px;
         top: -6vh;
+    }
+    .box1 p {
+        font-size: 13px;
+    }
+    .box1 br {
+        display: block;
+    }
+}
+@media only screen and (max-width: 585px) {
+    .box1 p {
+        font-size: 11px;
+    }
+    .nav h1 {
+        font-size: 30px;
+    }
+    .sticky li {
+        font-size: 20px;
     }
 }
