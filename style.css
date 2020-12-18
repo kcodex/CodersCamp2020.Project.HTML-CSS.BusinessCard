@@ -35,7 +35,6 @@ body {
     background-origin: content-box;
     height: 100%;
     width: 80vw;
-    
 }
 
 .nav {
@@ -251,7 +250,7 @@ input::placeholder {
 }
 
 textarea {
-    min-width: 350px; 
+    width: 350px; 
     height: 170px;
     resize: none;
 }
@@ -267,7 +266,7 @@ textarea::placeholder {
     color:white;
     text-align: center;
     font-size: 17px;
-    width: 10vw;
+    min-width: 10vw;
     height: 7vh;
     justify-self: end;
     cursor: pointer;
@@ -289,12 +288,8 @@ footer {
     text-decoration: none;
     color: white;
 }
-@media only screen and (max-width: 1200px) {
-        .nav h1 {
-            font-size: 45px;
-        }
-}
-@media only screen and (max-width: 1060px) {
+
+@media only screen and (max-width: 1070px) {
         .box4 {
             height: 650px;
         }
@@ -331,6 +326,9 @@ footer {
     }
 }
 @media only screen and (max-width: 945px) {
+    .navbar {
+        font-size: 3vh;
+    }
     .nav h1 {
         font-size: 40px;
     }
@@ -348,6 +346,11 @@ footer {
     .box1 h3 {
         margin-bottom: 5px;
         padding-top: 7vh;
+    }
+}
+@media only screen and (max-width: 685px) {
+    .facebook {
+        display: none;
     }
 }
 @media only screen and (max-width: 800px) {
@@ -392,6 +395,7 @@ footer {
     }
 }
 @media only screen and (max-width: 585px) {
+
     br {
         display: none;
     }
@@ -419,5 +423,15 @@ footer {
     }
     [type= "submit"] {
         font-size: 15px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    textarea {
+        width:200px;
+    }
+    [type = "submit"] {
+        margin-left: 80px;
+        padding-right: 2vh;
+        padding-left: 2vh;
     }
 }
