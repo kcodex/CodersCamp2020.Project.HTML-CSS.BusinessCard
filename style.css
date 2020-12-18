@@ -6,6 +6,7 @@
 body {
     min-height: 100%;
     width: 100%;
+    min-width: 430px;
 }
 .navbar {
     box-sizing: border-box;
@@ -200,7 +201,7 @@ body {
     opacity: 0.8;
 }
 .box4 {
-    height: 100vh;
+    min-height: 100vh;
     background-color:  #CCB7AE;;
 }
 .box4 h3 {
@@ -224,14 +225,14 @@ form {
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 400px;
 }
 .right {
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
-    width: 50%;
+    width: 450px;
     margin-bottom: 5vh;
 }
 label {
@@ -240,6 +241,7 @@ label {
 }
 [type="text"] {
     width: 30vw;
+    min-width: 200px;
     height: 6vh;
     margin-bottom: 5vh;
 }
@@ -269,6 +271,8 @@ textarea::placeholder {
     height: 7vh;
     justify-self: end;
     cursor: pointer;
+    margin-left: 300px;
+
 }
 footer {
     background-color: #29141e;
@@ -288,6 +292,14 @@ footer {
 @media only screen and (max-width: 1200px) {
         .nav h1 {
             font-size: 45px;
+        }
+}
+@media only screen and (max-width: 1060px) {
+        .box4 {
+            height: 650px;
+        }
+        label {
+            margin-bottom: 1vh;
         }
 }
 @media only screen and (max-width: 1040px) {
@@ -393,15 +405,19 @@ footer {
     .box1 br {
         display: block;
     }
-}
-@media only screen and (max-width: 585px) {
-    .box1 p {
-        font-size: 11px;
-    }
     .nav h1 {
         font-size: 30px;
     }
     .sticky li {
         font-size: 20px;
+    }
+    .box3 img {
+        width: 205px;
+    }
+    .box3 h3 {
+        font-size: 17px ;
+    }
+    [type= "submit"] {
+        font-size: 15px;
     }
 }
