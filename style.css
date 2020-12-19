@@ -32,7 +32,6 @@ body {
 .content {
     background-image: url(./photos/background-image.jpg);
     background-size: 80vw 110vh;
-    background-origin: content-box;
     height: 100%;
     width: 80vw;
 }
@@ -68,7 +67,6 @@ body {
     justify-content: space-around;
     z-index: 11;
 }
-
 .sticky span {
     padding-bottom: 80px;
 }
@@ -99,7 +97,6 @@ body {
     font-size: 3vh;
     padding-right: 1vw;
     flex-shrink: 2;
-
 }
 .box1 img {
     margin: 40px;
@@ -218,7 +215,6 @@ form {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-
 }
 .left {
     align-items: center;
@@ -229,7 +225,6 @@ form {
 .right {
     display: flex;
     flex-direction: column;
-    align-content: center;
     align-items: center;
     width: 450px;
     margin-bottom: 5vh;
@@ -248,7 +243,6 @@ input::placeholder {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
 }
-
 textarea {
     width: 350px; 
     height: 170px;
@@ -271,7 +265,6 @@ textarea::placeholder {
     justify-self: end;
     cursor: pointer;
     margin-left: 300px;
-
 }
 footer {
     background-color: #29141e;
@@ -288,7 +281,6 @@ footer {
     text-decoration: none;
     color: white;
 }
-
 @media only screen and (max-width: 1070px) {
         .box4 {
             height: 650px;
@@ -395,7 +387,6 @@ footer {
     }
 }
 @media only screen and (max-width: 585px) {
-
     br {
         display: none;
     }
