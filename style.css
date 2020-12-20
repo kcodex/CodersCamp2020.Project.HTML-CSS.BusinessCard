@@ -28,19 +28,17 @@ body {
     justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
 }
-
 .content {
-    background-image: url(./photos/background-image.jpg);
-    background-size: 80vw 110vh;
+    background-image: url(./photos/The_Philippines.jpg);
+    background-size: 80vw 100vh;
     height: 100%;
     width: 80vw;
 }
-
 .nav {
     height: 90vh;
     width: 80vw;
     position: relative;
-    background-image: url(./photos/background-image.jpg);
+    background-image: url(./photos/The_Philippines.jpg);
     background-size: cover;
 }
 .nav h1 {
@@ -48,7 +46,7 @@ body {
     font-size: 9vh;
     font-weight: normal;
     text-align: center;
-    color:rgb(27, 14, 14);
+    color: white;
     position: absolute;
     top: 50%;
     left: 48%;
@@ -81,7 +79,7 @@ body {
 .sticky {
     position: sticky;
     top: 0;
-  }
+}
 .box1 {
     background-color: gray;
     height: 100vh;
@@ -340,11 +338,6 @@ footer {
         padding-top: 7vh;
     }
 }
-@media only screen and (max-width: 685px) {
-    .facebook {
-        display: none;
-    }
-}
 @media only screen and (max-width: 800px) {
     .box3 {
         grid-template-columns: 20% 1fr 20%;
@@ -384,6 +377,21 @@ footer {
     }
     .box1 p {
         font-size: 15px;
+    }
+}
+@media only screen and (max-width: 685px) {
+    .nav {
+        width: 100vw;
+    }
+    .container .content {
+        width: 100vw;
+    }
+    .facebook {
+        display: none;
+    }
+    .insta {
+        position: absolute;
+        left: 0;
     }
 }
 @media only screen and (max-width: 585px) {
