@@ -425,6 +425,9 @@ footer {
     }
 }
 @media only screen and (max-width: 500px) {
+    .content {
+        background-size: 80vh 120vh;
+    }
     textarea {
         width:200px;
     }
