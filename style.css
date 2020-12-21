@@ -396,15 +396,8 @@ footer {
     .container .content {
         width: 100vw;
     }
-    .insta {
+    .insta, .facebook, .git {
         display: none;
-    }
-    .facebook {
-        display: none;
-    }
-    .git {
-        position: absolute;
-        left: 5px;
     }
 }
 @media only screen and (max-width: 585px) {
@@ -439,7 +432,10 @@ footer {
 }
 @media only screen and (max-width: 500px) {
     .box2 {
-        height: 610px;
+        height: 620px;
+    }
+    .box2 h3 {
+        padding-top: 7vh;
     }
     textarea {
         width:200px;
