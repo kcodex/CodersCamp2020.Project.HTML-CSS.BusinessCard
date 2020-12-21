@@ -316,6 +316,9 @@ footer {
     }
 }
 @media only screen and (max-width: 945px) {
+    .box2 {
+        height: 600px;
+    }
     .navbar {
         font-size: 3vh;
     }
@@ -380,6 +383,9 @@ footer {
     }
 }
 @media only screen and (max-width: 685px) {
+    .box2 {
+        height: 590px;
+    }
     .content {
         background-image: none;
         background-color: black;
@@ -390,12 +396,15 @@ footer {
     .container .content {
         width: 100vw;
     }
+    .insta {
+        display: none;
+    }
     .facebook {
         display: none;
     }
-    .insta {
+    .git {
         position: absolute;
-        left: 0;
+        left: 5px;
     }
 }
 @media only screen and (max-width: 585px) {
@@ -429,6 +438,9 @@ footer {
     }
 }
 @media only screen and (max-width: 500px) {
+    .box2 {
+        height: 610px;
+    }
     textarea {
         width:200px;
     }
